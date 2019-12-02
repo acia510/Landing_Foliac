@@ -1,0 +1,395 @@
+@font-face {
+    font-family: BIG JOHN;
+    src: url("./font/BIG JOHN.otf") format("otf"),;
+}
+
+@font-face {
+    font-family: Slim Joe;
+    src: url("./font/Slim Joe.otf") format("otf"),;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Logo*/
+h1 {
+    margin: 0;
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(60,78,85, 0.8),rgba(52, 63, 73, 0.8)), url("images/computer@1X.png");
+    height: 50vh;
+    background-size: cover;
+}
+
+.intro_title {
+    font-family: BIG JOHN, sans-serif;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.intro_subtitle {
+    font-family: Slim Joe, sans-serif;
+    margin-top: 5px;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 936px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 156px;
+}
+
+/* Button */
+.btn {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 22px;
+    border: 2px solid #48bf72;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #48bf72;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #48bf72;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding-top: 30px;
+}
+.nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.nav :hover {
+    text-decoration: none;
+    color: #48bf72;
+}
+.nav_link div {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Filtres */
+
+.filtres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtres_item {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin: 90px 14px 30px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 16px;
+    background-color: #eaeaea;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #3c4955;
+
+}
+
+.filtres_item:hover {
+    background-color: #48bf72;
+    color: white;
+}
+
+/* Portfolio */
+.Portfolio_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Portfolio_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
+
+
+/* Images */
+.about_img1 img {
+    width: 450px;
+    object-fit: cover;
+}
+
+.about_img1 {
+    width: 450px !important;
+    height: 302px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.about_img2 img {
+    width: 650px;
+    object-fit: cover;
+}
+
+.about_img2 {
+    width: 650px !important;
+    height: 304px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about_img3 img {
+    width: 650px;
+    object-fit: cover;
+}
+
+.about_img3 {
+    width: 650px !important;
+    height: 438px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about_img4 {
+    text-align: center;
+    color: rebeccapurple;
+}
+
+/* About */
+.about {
+    margin-top: 98px;
+    background-image: linear-gradient(to right, rgba(60,78,85, 0.8),rgba(52, 63, 73, 0.8)), url("images/men-computer копия.png");
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.text_about {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 90px 148px 30px 590px;
+    /*  margin-left: 590px;
+     margin-right: 138px;*/
+    padding-top: 90px;
+    text-align: left;
+}
+
+.text_2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.main_text {
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.btn2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 36px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 22px;
+    border: 2px solid #3c4955;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #3c4955;
+    text-transform: uppercase;
+
+}
+
+.btn2:hover {
+    background-color: #3c4955;
+    color: white;
+
+}
+
+/* Contact */
+.title {
+    font-family: BIG JOHN, sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    font-size: 24pt;
+    color: #48bf72;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*.contact_me {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.text, .email {
+    padding: 20px;
+    margin-top: 54px;
+    width: 335px;
+    height: 50px;
+    border: 2px solid #3c4955;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+}
+*/
+.contact_me {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.input_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text, .email {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #a6a5a5;
+    width: 335px;
+    padding: 20px;
+    margin-top: 54px;
+    border: 2px solid #3c4955;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+textarea {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    padding: 20px 20px;
+    width: 100%;
+    height: 228px;
+    border: 2px solid #3c4955;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+    background-color: #48bf72;
+    border: none;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer_box {
+    margin-top: 54px;
+    width: 100%;
+    height: 200px;
+    background-color: #3c4955;
+}
+
+.footer {
+
+}
+
+.copy {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-top: 94px;
+    font-size: 16px;
+    color: white;
+
+}
+span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.conteiner_footer {
+    display: flex;
+    height: 100%;
+}
+
+.icon, .socnetw {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    flex: 1;
+    margin-top: 40px;
+}
+
+.soc {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socnetw {
+
+}
+
+
